@@ -1,16 +1,8 @@
 # aws_login
 
-A new Flutter project.
+A Flutter project with a login/signup UI, and a simple AWS backend.
+Code mostly utilised from tutorial series by Kilo Loco (free to reuse).
 
-## Getting Started
+Project is significantly more complex than anything I've written wholly independently, but I wish to display it as it was a steep learning curve with both bloc/cubit state management and the AWS auth. Both of those features weren't working by the time I went to recreate the project, so it took quite a bit of independent searching to update the code in line with newer version of those packages. In general also, the tutorial was a mess in terms of null checks and handling errors, so I cleaned that up (as best I know how), as well as adding improved checks for valid passwords/emails, and a cleaner UI. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The tutorial series continues on with more complex features, such as a database with user profile pictures displayed after login, however I decided not to include that further build on here as I don't understand it as well. 
